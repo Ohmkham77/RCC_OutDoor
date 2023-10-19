@@ -1,0 +1,120 @@
+.footer_container {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background: url('/images/sub2.jpg');
+    background-size: cover;
+}
+
+.f_block {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.f_top {
+    border-bottom: 1px solid #869643;
+}
+
+.sub_block {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    border-right: 1px solid #869643;
+}
+
+.sub_title {
+    margin-bottom: 3px;
+    color: #869643;
+}
+
+.sub_box_container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.sub_box_container input {
+    flex: 0 1 67%;
+    padding: 0 10px;
+    margin-right: 30px;
+}
+
+.sub_box_container ._shop_button {
+    background-color: #869643;
+    transition: none;
+}
+
+.sub_box_container ._shop_button:hover {
+    background-color: #859643d2;
+    color: #ffffffd2;
+}
+
+.sub_box_container ._shop_button::after {
+    display: none;
+}
+
+.fus_block {
+    width: 40%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: white;
+}
+
+.fus_icon_list {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fus_icon_list .ph {
+    font-size: 40px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.fus_icon_list .ph:hover {
+    color: #869643;
+}
+
+.f_link {
+    margin-top: 30px;
+}
+
+.f_link li {
+    margin-bottom: 10px;
+}
+
+.flink_title {
+    font-size: 18px;
+    color: #869643;
+    margin-bottom: 20px;
+}
+
+.f_link a {
+    font-size: 16px;
+    color: white;
+}
+
+.f_link a:hover {
+    color: #869643;
+    text-decoration: underline;
+}
+
+.f_bot {
+    height: auto;
+    padding: 15px 0;
+    font-size: 14px;
+    background-color: #333c2b;
+    color: white;
+}
